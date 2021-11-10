@@ -1,0 +1,42 @@
+html {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background-color: lightgrey;
+    color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    gap: 50px;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.transition {
+    scale: 1.05;
+    transition: 0.01s;
+}
+
